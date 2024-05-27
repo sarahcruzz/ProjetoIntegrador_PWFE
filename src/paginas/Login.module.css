@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-claro);
+}
+
+.titulo {
+    color: var(--roxo-escuro);
+    font-size: 2rem;
+    margin-bottom: 25px;
+    
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.campo{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.botao {
+    background-color: var(--roxo-escuro);
+    color: var(--cinza-claro);
+    padding: 10px;
+    border-radius: 8px;
+}
