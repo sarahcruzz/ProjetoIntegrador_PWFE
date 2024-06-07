@@ -1,0 +1,16 @@
+.container{
+    background-color: var(--verde-escuro1);
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    margin: 15px 20px;
+    border-radius: 8px;
+    transition: transform .25s;
+}
+
+.container:hover{
+    transform: scale(1.025); /*aumenta ou diminui um elemento de acordo com o seu tamanho*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+    transition:  0.5s;
+    
+}

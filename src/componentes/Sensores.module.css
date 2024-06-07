@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.identificador{
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.containerInfo{
+    width: 95%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 10px;
+}
+
+.campo{
+    padding: 6px;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.botao { 
+    display: flex;
+    background-color: var(--verde-claro);
+    width: 95%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 15px;font-family: 'Poppins', sans-serif;
+    color: var(--branco);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.botao:hover { 
+    background: #2e818b;
+}

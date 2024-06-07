@@ -1,23 +1,26 @@
-.gridConteiner {
+.gridContainer{
     display: grid;
     height: 100vh;
     gap: 10px;
-
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: 100px 1fr;
+  
+    grid-template-columns: 250px 1fr;   /* duas colunas */
+    grid-template-rows: 100px 1fr;    /* duas linhas */
     grid-template-areas: 
-        'cabecalho cabecalho'
-        'lateral conteudo';
-}
+      'cabecalho cabecalho'  
+      'lateral conteudo';
+  }
+  
+  header{
+    grid-area: cabecalho;
 
-header {
-    grid-area: cabecalho; 
-}
+  }
+  
+  aside{
+    grid-area: lateral;
 
-aside {
-    grid-area: lateral; 
-}
-
-main {
+  } 
+  
+  main{
     grid-area: conteudo;
-}
+
+  }

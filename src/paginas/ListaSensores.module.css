@@ -1,0 +1,10 @@
+.container {
+    background-color:var(--cinza-claro) ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    padding: 5px;
+
+}
+ 

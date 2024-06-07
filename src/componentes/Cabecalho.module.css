@@ -1,0 +1,13 @@
+ .container {
+    background-color: var(--verde-medio);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p{
+    font-size: 2rem;
+    color: var(--branco);
+    padding: 10px;
+}
+

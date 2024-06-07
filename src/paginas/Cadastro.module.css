@@ -4,6 +4,7 @@
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
+
 .container{
     display: flex;
     height: 100vh;
@@ -11,18 +12,20 @@
     align-items: center;
 }
 
+
 .formulario{
     display: flex;
     flex-direction: column;
     background-color: var(--cinza-claro);
-    padding: 30px;
-    border-radius: 8px;
+    padding: 45px;
+    border-radius: 6px;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
     font-size: 30px;
     font-weight: 300;
 }
@@ -37,33 +40,41 @@
 .input {
     margin-bottom: 5px;
     padding: 6px;
-    border-radius: 4px;
+    border-radius: 6px;
     border: 1px solid var(--cinza-claro);
-    width: 250px;  
+    width: 300px;  
 }
 
 .input:focus{
-    border: 1px solid var(--cinza-azulado);
+    border: 1px solid var(--verde-medio);
     outline: none; /* Remove a borda padrão de foco */
 }
 
+
 .botao{
-    background: var(--verde-escuro1);
+    background: var(--verde-claro);
     color: var(--cinza-claro);
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     font-family: 'Poppins';
     font-size: 16px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;    
-    margin-top: 10px;
-    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
 }
 
+.botao:hover{
+    background-color: var(--verde-medio);
+}
 
-.botao:hover {
-    background: var(--verde-medio);
-    color: var(--branco);
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--azul);
 }
 
 .messageErro{

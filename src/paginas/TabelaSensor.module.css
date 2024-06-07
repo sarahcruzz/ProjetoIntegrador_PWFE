@@ -1,0 +1,30 @@
+.body{
+    background-color: var(--cinza-claro);
+    padding: 50px 50px;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: rgb(1, 22, 56);
+}
+.tabela {
+    width: 100%;
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 30px;
+    text-align: left;
+}
+ 
+.tabela th,
+.tabela td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+ 
+.tabela th {
+    background-color: var(--cinza-claro);
+}

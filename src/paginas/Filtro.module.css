@@ -1,0 +1,30 @@
+.conteiner {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 20px;  
+    background-color: var(--cinza-claro);
+    flex-direction: column;
+    margin-top: 20px;  
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    background-color: var(--verde-claro);
+    width: 80%;
+    color: var(--cinza-claro);
+    padding: 7px;
+    border-radius: 4px;
+    margin: 20px 0 0 80px;
+    border: none;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+    padding: 25px;
+    
+}
+
