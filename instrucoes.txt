@@ -1,0 +1,6 @@
+para rodar o projeto:
+npm run dev
+
+para fazer login:
+usuário: smart_user
+senha: 123456
